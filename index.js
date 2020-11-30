@@ -2,7 +2,7 @@ const express = require('express');
 
 const server = express();
 
-const PORT = process.env.PORT || 3333;
+const PORT = process.env.PORT || 3000;
 
 server.get('/filmes',(req,res)=>{
 
