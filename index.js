@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3333;
 
 server.get('/filmes',(req,res)=>{
 
-    return res.json(
+    res.json(
        [
          {
           id: 1,
