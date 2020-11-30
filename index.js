@@ -44,4 +44,6 @@ server.get('/filmes',(req,res)=>{
     );
 })
 
-server.listen(PORT);
+server.listen(PORT,() =>{
+    console.log("Servidor escutando na porta" + PORT);
+});
